@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHOICHI PORTFOLIO</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!--通常フォント-->
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+  <!--特別なフォント-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap" rel="stylesheet"> 
+  <!-- アイコン-->
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <!-- アイコン-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/slide.js"></script>
+</head>
+<body>
+  <!-- バックイメージ -->
+  <div id="scroll-back-img">
+    <ul>
+      <li><img src="img/slide01.jpg"></li>
+      <li><img src="img/slide02.jpg"></li>
+      <li><img src="img/slide03.jpg"></li>
+      <li><img src="img/slide04.jpg"></li>
+    </ul>
+  </div>
+  <!-- ヘッダー -->
+  <header>
+    <div class="header-wrap" id="top">
+        <p class="header-wrap-text">Thanks so much for your time .</p>
+        <div class="log">
+            <p class="name">SHOICHI</p>
+            <p class="pfl">Portfoli</p>
+        </div>
+        <ul class="header-nav" id="topNav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#survice">Survice</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="header-black-line">
+          <div class="arrow"><i class="fas fa-sort-down"></i></div>
+          <div class="arrow"><i class="fas fa-sort-down"></i></div>
+          <div class="arrow"><i class="fas fa-sort-down"></i></div>
+        </div>
+    </div>
+  </header>
+                              <!-- メインここから -->
+  <main>
+    <!-- ハンバーガーメニュー -->  
+    <div class="slideMenu" id="scrollIn">
+      <input type="checkbox" id="slideIn" name="slideIn">
+      <label for="slideIn" class="borders">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <label for ="slideIn" class="slideIn-back">
+        <nav class="slideIn-menu">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#survice">Survice</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </label>
+    </div>
+    <!-- リターンボタン -->
+    <div class="topReturn" id="scrollIn-return"><a href="#top">
+      <span></span>
+      <span></span>
+      <span></span></a>
+    </div>
+    <!-- モーダル -->
+    <div class="modal" id="modal01">
+      <div class="modalbk">
+        <div class="modal-contet">
+          <img src="./img/isarafull.png">
+        </div>
+        <div class="js-modal-close">
+          <i class="far fa-times-circle"></i>
+        </div>
+      </div>
+    </div>
+<!-- アバウトここから -->
+    <section id="about" >
+     <div class="black-line"></div>
+      <h1 class="section-head fadeInLeft">ABOUT</h1>
+     <div class="container fadeInRight">
+        <h3 class="sp-text">Profile</h3>
+        <div class="profile-container">
+            <div class="plofile-photo">
+              <img src="img/145b4e9f0cfe7e9ff55ad67c1d8adcda.jpg" alt="Plofile-photo">
+            </div>
+            <table class="plofile-data">
+              <tr>
+                <th>Name</th>
+                <td>横山 翔一</td>
+              </tr>
+              <tr>
+                <th>Age</th>
+                <td>26</td>
+              </tr>
+              <tr>
+                <th>From</th>
+                <td>Isikawa</td>
+              </tr>
+            </table>
+            <div class="plofile-text">
+              <p class="text">石川県出身。
+                現在大阪市内のホテルにて、バーテンダーとして勤務。現在のスキル以外で稼ぎたいと思い、HTML,CSS,Javascriptを独学で学習中。今後様々な言語を学んでいきたいと思っております。</p>
+            </div>
+         </div> <!--plfile-container-->
+         <h3 class="sp-text">Skill</h3>
+         <div class="skill-container">
+          <div class="skill-box">
+            <p class="sp-text">HTML</p>
+            <img src="img/html.png" alt="html">
+            <div class="star-gauge">
+              <span class="material-icons">star_outline</span>
+              <span class="material-icons">star_outline</span>
+              <span class="material-icons">star_outline</span>
+              <span class="material-icons">star_outline</span>
+              <span class="material-icons">star_outline</span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <p class="sp-text">CSS</p>
+            <img src="img/css.png" alt="css">
+            <div class="star-gauge">
+              <span class="material-icons">star_outline</span>
+              <span class="material-icons">star_outline</span>
+              <span class="material-icons">star_outline</span>
+              <span class="material-icons">star_outline</span>
+              <span class="material-icons">star_outline</span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <p class="sp-text">JavaScript</p>
+            <img src="img/js.png" alt="jp">
+            <div class="star-gauge">
+              <span class="material-icons">star_outline</span>
+              <span class="material-icons">star_outline</span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <p class="sp-text">jquery</p>
+            <img src="img/jquery.png" alt="jquery">
+            <div class="star-gauge">
+              <span class="material-icons">star_outline</span>
+              <span class="material-icons">star_outline</span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <p class="sp-text">Sass</p>
+            <img src="img/sass(7).png" alt="sass">
+            <div class="star-gauge">
+              <span class="material-icons">star_outline</span>
+              <span class="material-icons">star_outline</span>
+              <span class="material-icons">star_outline</span>
+              <span class="material-icons">star_outline</span>
+            </div>
+          </div>
+          <div class="triangle"></div>
+     </div> <!--container-->
+    </section>
+<!-- ワークここから -->
+    <section id="work" >
+      <div class="black-line"></div>
+     <div class="triangle1"></div>
+      <h1 class="section-head fadeInLeft">WORK</h1>
+      <div class="container fadeInRight">
+        <!-- ボックス -->
+        <div class="Work-content-box  fadeInRight">
+          <div class="img">
+            <a href="" class="js-modal-open" data-target="modal01"><img src="img/isaratop.png" alt="comigsoon"></a>
+          </div>
+          <div class="boxbox">
+          <h3>iSala模写</h3>
+            <p class="text"><i class="far fa-calendar-times"></i>２０ｈ</p>
+          <span class="text">使用言語：HTML,CSS,jqueryアコーディオンメニューはCSSとjqueryの２種類で実装しました。</span>
+        </div> <!--boxbox-->
+        </div>
+    <!-- ボックス -->
+        <div class="Work-content-box  fadeInLeft">
+          <div class="img">
+          <a href="" class="js-modal-open" data-target="modal01"><img src="img/comigsoon.png" alt="comigsoon"></a>
+        </div>
+          <div class="boxbox">
+          <h3>iSala</h3>
+          <p class="text"><i class="far fa-calendar-times"></i>2days</p>
+          <span class="text">コメントコメントコメントコメントコメントコメントコメントコメントコメントコメント</span>
+        </div>  <!--boxbox-->
+        </div>
+    <!-- ボックス -->
+        <div class="Work-content-box  fadeInRight">
+          <div class="img">
+          <a href="" class="js-modal-open" data-target="modal01"><img src="img/comigsoon.png" alt="comigsoon"></a>
+        </div>
+          <div class="boxbox">
+          <h3>iSala</h3>
+          <p class="text"> <i class="far fa-calendar-times"></i>2days</p>
+          <span class="text">コメントコメントコメントコメントコメントコメントコメントコメントコメントコメント</span>
+        </div>  <!--boxbox-->
+        </div>
+      </div>
+     <div class="triangle2"></div>
+    </section>
+<!-- サービスここから -->
+    <section id="survice" >
+      <div class="black-line">
+        <div class="arrow"><i class="fas fa-sort-down"></i></div>
+          <div class="arrow"><i class="fas fa-sort-down"></i></div>
+          <div class="arrow"><i class="fas fa-sort-down"></i></div>
+      </div>
+     <div class="triangle-top"></div>
+      <h1 class="section-head fadeInLeft">SURVICE</h1>
+
+      <div class="container">
+
+        <div class="survice-content-box">
+          <div class="wrap acd">
+            <img src="img/lp.png" alt="lp">
+            <p class="sp-text">LP制作</p>
+          </div>
+          <div class="acdtext">
+            <p>アニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーション</p>
+          </div>
+        </div>  
+
+        <div class="survice-content-box">
+          <div class="wrap acd">
+            <img src="img/coding.png" alt="coding">
+            <p class="sp-text">コーディング</p>
+          </div>
+          <div class="acdtext">
+            <p>アニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーション</p>
+          </div>
+        </div>  
+
+        <div class="survice-content-box">
+          <div class="wrap acd">
+            <img src="img/Responsive.png" alt="Responsive">
+            <p class="sp-text">レスポンシブ</p>
+          </div>
+          <div class="acdtext">
+            <p>アニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーション</p>
+          </div>
+        </div>  
+
+        <div class="survice-content-box">
+          <div class="wrap acd">
+            <img src="img/fix.png" alt="fix">
+            <p class="sp-text">サイト修正</p>
+          </div>
+          <div class="acdtext">
+            <p>アニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーションアニメーション</p>
+          </div>
+        </div>  
+
+      </div>
+     <div class="triangle-bottom"></div>
+    </section>
+<!-- コンタクトここから -->
+    <section id="contact" >
+      <div class="black-line"></div>
+      <h1 class="section-head fadeInLeft">CONTACT</h1>
+      <div class="container">
+<!-- コンタクトフォーム -->
+        <form>
+              <div class="contact-box name">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">    
+              </div>
+              <div class="contact-box tel">
+                <label for="number">Tel</label>
+                <input type="tel" id="number" name="name">
+              </div>
+              <div class="contact-box email">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="name">             
+              </div>
+              <div class="contact-box email">
+              <label class="msg">Massege</label>
+              <textarea rows="10" cols="50"></textarea>
+              </div>           
+            
+<!-- 送信ボタン -->
+          <input type="submit" value="SUBMIT" class="contact-button">
+        </form>     
+      </div>
+    </section>
+  </main>
+                   <!-- フッター-->
+  <footer>
+    <div class="footer-container">
+      <p>@SHOICHI Portfolio</p>
+    </div>
+  </footer>
+</body>
+</html>
